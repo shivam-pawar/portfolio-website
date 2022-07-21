@@ -1,0 +1,60 @@
+.main {
+  display: flex;
+  height: 100px;
+  font-family: "Patrick Hand", cursive;
+  letter-spacing: 4px;
+  text-shadow: 3px 3px 3px #aaa;
+}
+.bodyContainer {
+  background: var(--app-background) !important;
+}
+
+.mainContent {
+  height: calc(80vh - 64px);
+}
+.main > section {
+  padding: 32px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 95%;
+  z-index: 400;
+}
+.tagsFlex {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+.navTitle {
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+.navigationMenu {
+  width: 30%;
+  display: inline-flex;
+  justify-content: center;
+  font-size: 22px;
+}
+.navigationMenu > * {
+  margin: 20px;
+}
+.darkMode {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+
+.githubLink {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 20px;
+  cursor: pointer;
+}

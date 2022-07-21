@@ -1,0 +1,23 @@
+.project__icon i {
+  color: #01d293;
+  font-size: 32px;
+}
+.project__heading {
+  color: var(--app-title);
+}
+.project__body {
+  background: var(--app-background);
+  color: var(--app-title);
+  border: 1px solid var(--project-border);
+  box-shadow: 5px 5px 15px -5px var(--header-shrink) !important;
+}
+
+.card__footer {
+  background-color: var(--app-background);
+  border-top: none !important;
+}
+.card__footer > a {
+  color: var(--app-title);
+  font-size: 32px;
+  text-decoration: none;
+}

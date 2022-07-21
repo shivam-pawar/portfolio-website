@@ -1,0 +1,68 @@
+.footer__creator h6 {
+  text-align: right;
+  font-weight: 400;
+  color: var(--footer-creator);
+}
+.footer__copyright {
+  border-top: 1px solid #808dad49;
+}
+.footer__copyright p {
+  font-size: 0.8rem;
+  text-align: center;
+  padding-top: 20px;
+}
+.footer {
+  clear: both;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  background: var(--app-background);
+  color: var(--footer-text);
+  padding-top: 20px;
+}
+
+.social {
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  .social {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+.social > a {
+  font-size: 30px;
+  line-height: 36px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  /* box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4); */
+  margin: 0 8px;
+  /* color: #0000; */
+  opacity: 0.75;
+  z-index: 9999999;
+  text-decoration: none;
+}
+
+.social > a:hover {
+  opacity: 0.9;
+}
+
+.githubIcon {
+  color: var(--app-title);
+}
+.githubIcon:hover {
+  color: var(--app-title);
+}
+.stckoverflow__icon {
+  color: orange;
+}
+
+.stckoverflow__icon:hover {
+  color: orange;
+}

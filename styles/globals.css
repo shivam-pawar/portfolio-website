@@ -1,0 +1,97 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  justify-content: center;
+  align-items: center;
+  background: var(--app-background);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+:root {
+  --color-1: #442288;
+  --color-2: #6ca2ea;
+  --color-3: #b5d33d;
+  --color-4: #fed23f;
+  --color-5: #eb7d5b;
+  --angle: 0deg;
+  --app-background: white;
+  --app-title: black;
+  --nav-menu-background: white;
+  --nav-menu-color: black;
+  --nav-mobile-menu-color: black;
+  --nav-header-text-shadow: #aaa;
+  --header-logo: #01d293;
+  --header-logo-text: black;
+  --header-shrink: #01d29344;
+  --header-nav-right: #808dad;
+  --header-shrink-background: white;
+  --footer-creator: black;
+  --footer-text: black;
+  --about-color: black;
+  --testimonial-color: black;
+  --user-name: #6c757d;
+  --card-border: white;
+  --project-border: rgba(0, 0, 0, 0.125);
+}
+
+[data-theme="dark"] {
+  --app-background: black;
+  --app-title: white;
+  --nav-menu-background: black;
+  --nav-menu-color: white;
+  --nav-mobile-menu-color: white;
+  --nav-header-text-shadow: #fff;
+  --header-logo: #01d293;
+  --header-logo-text: white;
+  --header-shrink: #01d29344;
+  --header-nav-right: #808dad;
+  --header-shrink-background: black;
+  --footer-creator: white;
+  --footer-text: white;
+  --about-color: white;
+  --testimonial-color: white;
+  --user-name: #fff;
+  --card-border: rgb(43, 43, 43);
+  --project-border: rgb(43, 43, 43);
+}
+
+section {
+  padding-top: 25px;
+}
+
+.priamry__btn {
+  background: #6ca2ea !important;
+  padding: 7px 25px !important;
+  border: 1px solid #01d293;
+}
+
+.priamry__btn a {
+  text-decoration: none;
+  color: #01d293;
+  background: transparent !important;
+}
+
+.secondary__btn {
+  background: transparent !important;
+  border: none;
+  outline: none;
+  padding: 7px 25px;
+}
+
+.secondary__btn a {
+  color: #01d293 !important;
+}
+.priamry__btn a:hover,
+.secondary__btn a:hover {
+  color: unset;
+}
