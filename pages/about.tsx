@@ -1,7 +1,7 @@
 import { Container, Col, Row } from "reactstrap";
 import classes from "../styles/about.module.css";
 import Image from "next/image";
-
+import { techStack } from "../constants/technology_stack";
 export default function About() {
   return (
     <Container>
@@ -21,7 +21,7 @@ export default function About() {
             may involve analyzing algorithms, altering code, fixing bugs,
             brainstorming ideas or integrating new systems.
           </p>
-          <div className=" d-flex align-items-center gap-5">
+          <div className=" d-flex align-items-center gap-4">
             <div>
               <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
                 <span className={`${classes.about__icon}`}>
@@ -37,7 +37,20 @@ export default function About() {
                 Search A Lot
               </h6>
             </div>
-
+            <Row className={`${classes.mobile__landingPage}`}>
+              <Col
+                lg="6"
+                md="6"
+                className={`${classes.mobile__landingPage_logo}`}
+              >
+                <Image
+                  alt="hero-image"
+                  src="/me-circle.png"
+                  width="218"
+                  height="218"
+                />
+              </Col>
+            </Row>
             <div>
               <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
                 <span className={`${classes.about__icon}`}>
@@ -63,14 +76,69 @@ export default function About() {
             height="408"
           />
         </Col>
-      </Row>
-      <Row className={`${classes.mobile__landingPage}`}>
-        <Col lg="6" md="6" className={`${classes.mobile__landingPage_logo}`}>
+        <Col lg="12" md="12">
+          <h3 className="mb-4 mt-5">Technology Stack</h3>
+          <div className={classes.technology__stack}>
+            {techStack.map((tech) => (
+              <img src={tech.url} alt={tech.alt} key={tech.id} />
+            ))}
+          </div>
+        </Col>
+        <Col lg="6" md="6">
+          <h3 className="mb-4">Certifications</h3>
+          <div className={classes.certification__stack}>
+            <ul>
+              <li>
+                <a href="https://www.credly.com/badges/e9010a98-7990-4035-87e5-fe7ea5769903?source=linked_in_profile">
+                  Microsoft Certified: Azure Fundamentals
+                </a>
+                &nbsp;<i className="ri-links-line"></i>
+              </li>
+              <li>
+                <a href="https://rhtapps.redhat.com/verify?certId=180-127-532">
+                  Red Hat Certified System Administrator - EX200
+                </a>
+                &nbsp;<i className="ri-links-line"></i>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/learning/react-ecosystems">
+                  React: Ecosystems
+                </a>
+                &nbsp;<i className="ri-links-line"></i>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/learning/react-server-side-rendering-8539269">
+                  React: Server-Side Rendering
+                </a>
+                &nbsp;<i className="ri-links-line"></i>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/learning/asp-dot-net-mvc-5-essential-training-4">
+                  ASP.NET MVC 5 Essential Training
+                </a>
+                &nbsp;<i className="ri-links-line"></i>
+              </li>
+              <li>
+                <a href="https://www.credly.com/badges/42ecc868-4ec4-41d5-affc-4137107bea2d?source=linked_in_profile">
+                  Python for Data Science and AI
+                </a>
+                &nbsp;<i className="ri-links-line"></i>
+              </li>
+              <li>
+                <a href="https://www.coursera.org/account/accomplishments/verify/6AXMSKRR48W8">
+                  Data Visualization with Plotly Express
+                </a>
+                &nbsp;<i className="ri-links-line"></i>
+              </li>
+            </ul>
+          </div>
+        </Col>
+        <Col lg="6" md="6" className={classes.certificate__image}>
           <Image
-            alt="hero-image"
-            src="/me-circle.png"
-            width="218"
-            height="218"
+            src="/certificate.svg"
+            width={280}
+            height={280}
+            alt="certificate"
           />
         </Col>
       </Row>

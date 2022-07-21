@@ -19,6 +19,18 @@
   border: 3px solid var(--header-logo);
 }
 
+.technology__stack {
+  margin-bottom: 50px !important;
+}
+
+.certification__stack {
+  margin-bottom: 100px !important;
+}
+
+.technology__stack > img {
+  padding: 6px;
+}
+
 .mobile__landingPage {
   display: none;
 }
@@ -54,6 +66,9 @@
     width: 108px;
     margin-top: 10px;
     border: 3px solid var(--header-logo);
+  }
+  .certificate__image {
+    display: none;
   }
 }
 

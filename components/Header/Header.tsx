@@ -127,9 +127,8 @@ function Header() {
                       onClick={toggleMode}
                       alt="Switch Mode"
                     ></Image>
-
                     <a
-                      href="https://github.com/shivam-pawar"
+                      href="https://github.com/shivam-pawar/portfolio-website"
                       target="_blank"
                       rel="noopener noreferrer"
                       className={`d-flex align-items-center gap-2 mb-0 ${classes.githubIcon}`}
@@ -140,7 +139,7 @@ function Header() {
                         }
                         width={darkTheme ? 40 : 70}
                         height={darkTheme ? 40 : 70}
-                        title="Switch Mode"
+                        title="Github Repo"
                         className={`${classes.darkMode}`}
                         alt="github"
                       ></Image>
@@ -164,7 +163,7 @@ function Header() {
                     alt="switch mode"
                   ></Image>
                   <a
-                    href="https://github.com/shivam-pawar"
+                    href="https://github.com/shivam-pawar/portfolio-website"
                     target="_blank"
                     rel="noopener noreferrer"
                     className={`d-flex align-items-center gap-2 mb-0 ${classes.githubIcon}`}
@@ -173,9 +172,9 @@ function Header() {
                       src={darkTheme ? "/github-icon-dark.png" : "/github.png"}
                       width={darkTheme ? 40 : 70}
                       height={darkTheme ? 40 : 70}
-                      title="Switch Mode"
+                      title="Github Repo"
                       className={`${classes.darkMode}`}
-                      alt="Switch Mode"
+                      alt="Github Repo"
                     ></Image>
                   </a>
                 </p>
