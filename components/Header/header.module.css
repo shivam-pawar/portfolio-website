@@ -97,6 +97,9 @@
 .githubLink {
   display: flex;
 }
+.githubIcon {
+  margin-left: 30px;
+}
 
 .darkMode {
   cursor: pointer;
@@ -158,6 +161,7 @@
     text-shadow: none;
     font-size: 30px !important;
     opacity: 1;
+    margin-left: 10px;
   }
 }
 

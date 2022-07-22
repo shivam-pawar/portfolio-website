@@ -10,7 +10,7 @@ export default function Card({ data }: any) {
       href={data.link}
       target="_blank"
       rel="noopener noreferrer"
-      className={`d-flex align-items-center gap-2 mb-0 text-decoration-none`}
+      className={`d-flex align-items-center gap-2 mb-0 text-decoration-none ${classes.card__mobile}`}
     >
       <div className={classes.card}>
         <Image

@@ -56,3 +56,8 @@
 .card__body {
   padding: 1.2em;
 }
+@media only screen and (max-width: 992px) {
+  .card__mobile {
+    width: 100%;
+  }
+}
