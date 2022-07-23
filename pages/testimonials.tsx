@@ -26,7 +26,7 @@ function Testimonial() {
             ></Image>
           </Col>
           <Col lg="6" md="6">
-            <h4 className="mt-4 mb-5">What peoples says about me</h4>
+            <h4 className="mt-4 mb-5">What people says about me</h4>
             <Slider {...settings}>
               <div className={`${classes.testimonial__item}`}>
                 <div className={`${classes.testimonial__people}`}>

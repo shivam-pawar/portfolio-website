@@ -16,7 +16,7 @@ export default function About() {
             applications using JavaScript, C# and Python programming languages.
           </p>
           <p>
-            I’m hands on in all stages of the programming cycle, from planning
+            I’ve hands on in all stages of the programming cycle, from planning
             to design and deployment. No two days are the same for me; my tasks
             may involve analyzing algorithms, altering code, fixing bugs,
             brainstorming ideas or integrating new systems.
