@@ -3,7 +3,18 @@ import { Html, Head, Main, NextScript } from "next/document";
 export default function Document() {
   return (
     <Html lang="en">
-      <Head />
+      <Head>
+        <meta property="og:title" content="Shivam Pawar" />
+        <meta
+          property="og:image"
+          content="https://i.ibb.co/x3qBgrr/web-thumbnail.jpg"
+        />
+        <meta property="og:description" content="DESCRIPTION OF YOUR SITE" />
+        <meta property="og:url" content="https://shivam-pawar.vercel.app/" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="627" />
+        <meta property="og:type" content="website" />
+      </Head>
       <body>
         <script
           dangerouslySetInnerHTML={{
