@@ -7,7 +7,7 @@ function Testimonial() {
     dots: true,
     autoplay: true,
     speed: 1000,
-    autoplaySpeed: 10000,
+    autoplaySpeed: 4000,
     infinite: true,
     swipeToSlide: false,
     slidesToShow: 1,
