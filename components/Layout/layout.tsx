@@ -22,12 +22,11 @@ export default function Layout({
           rel="stylesheet"
         />
       </Head>
-      <LetMeDown footerComponent={<Footer />}>
-        <div id={`${styles.bodyContainer}`}>
-          <Header />
-          <div className={`${styles.bodyContainer}`}>{children}</div>
-        </div>
-      </LetMeDown>
+
+      <div id={`${styles.bodyContainer}`}>
+        <Header />
+        <div className={`${styles.bodyContainer}`}>{children}</div>
+      </div>
     </>
   );
 }
