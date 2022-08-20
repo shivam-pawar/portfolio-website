@@ -66,6 +66,46 @@ function projects() {
               <span className={`${classes.project__icon}`}>
                 <i className="ri-arrow-right-circle-line"></i>
               </span>
+              let-me-down : NPM Package for React.js
+            </h5>
+          </div>
+        </div>
+        <Col lg="12" md="12">
+          <Card className={`${classes.project__body}`}>
+            <CardBody>
+              <p>
+                LetMeDown is a React component to always keep Footer component
+                of your application at bottom of screen and below the content on
+                page.
+              </p>
+              <p></p>
+            </CardBody>
+            <CardFooter className={`${classes.card__footer}`}>
+              <a
+                href="https://github.com/shivam-pawar/let-me-down"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="ri-github-fill"></i>
+              </a>
+              <a
+                href="https://www.npmjs.com/package/let-me-down"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="ri-npmjs-line m-3"></i>
+              </a>
+            </CardFooter>
+          </Card>
+        </Col>
+      </Row>
+      <Row>
+        <div className=" d-flex align-items-center gap-5">
+          <div className={`${classes.project__heading}`}>
+            <h5 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
+              <span className={`${classes.project__icon}`}>
+                <i className="ri-arrow-right-circle-line"></i>
+              </span>
               Prediction of time to consume food contained in cold supply chain
               using Machine Learning and RaspberryPi.
             </h5>

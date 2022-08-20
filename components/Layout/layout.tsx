@@ -1,9 +1,8 @@
 import Head from "next/head";
-import Image from "next/image";
-import Link from "next/link";
 import styles from "./layout.module.css";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
+import { LetMeDown } from "let-me-down";
 interface Props {
   children?: React.ReactNode;
   pageTitle?: String;
@@ -23,11 +22,12 @@ export default function Layout({
           rel="stylesheet"
         />
       </Head>
-      <div id={`${styles.bodyContainer}`}>
-        <Header />
-        <div className={`${styles.bodyContainer}`}>{children}</div>
-        <Footer />
-      </div>
+      <LetMeDown footerComponent={<Footer />}>
+        <div id={`${styles.bodyContainer}`}>
+          <Header />
+          <div className={`${styles.bodyContainer}`}>{children}</div>
+        </div>
+      </LetMeDown>
     </>
   );
 }
