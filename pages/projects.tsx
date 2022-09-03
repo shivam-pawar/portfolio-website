@@ -135,6 +135,15 @@ function projects() {
                   algorithm predict the lifetime of food.
                 </p>
               </CardBody>
+              <CardFooter className={`${classes.card__footer}`}>
+                <a
+                  href="https://github.com/shivam-pawar/Cold-Supply-Chain---ML"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="ri-github-fill"></i>
+                </a>
+              </CardFooter>
             </Card>
           </Col>
         </Row>
