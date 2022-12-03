@@ -9,7 +9,10 @@ export default function Document() {
           property="og:image"
           content="https://i.ibb.co/x3qBgrr/web-thumbnail.jpg"
         />
-        <meta property="og:description" content="DESCRIPTION OF YOUR SITE" />
+        <meta
+          property="og:description"
+          content=" A skilled, competent, and diligent individual, specializing in the modern web development (React js - Redux) and Machine Learning algorithms. Rajasthan, India Education B. Tech. in Computer Science Work Software Developer at Emtec Inc. Badges Skills/Languages JavaScript. React Js, C#, HTML, CSS, SQL"
+        />
         <meta property="og:url" content="https://shivam-pawar.vercel.app/" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="627" />
